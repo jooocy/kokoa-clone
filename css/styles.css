@@ -1,19 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&family=Roboto&display=swap");
-@import "reset.css";
+@import "./variables.css";
+@import "./reset.css";
+
+/* Screens */
+@import "./screens/login.css";
+@import "./screens/friends.css";
+
+/* Components */
+@import "./components/nav-bar.css";
+@import "./components/screen-header.css";
+@import "./components/status-bar.css";
+@import "./components/user-component.css";
 body {
   font-family: "Open Sans", sans-serif;
-}
-
-svg {
-  width: 20px;
-  height: 20px;
-}
-
-.status-bar {
-  display: flex;
-  justify-content: space-between;
-}
-
-.status-bar__column:first-child apan {
-  margin-right: 3px;
+  color: #2e363e;
 }
