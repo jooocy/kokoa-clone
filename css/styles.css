@@ -1,17 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&family=Roboto&display=swap");
-@import "./variables.css";
 @import "./reset.css";
+@import "./variables.css";
 
 /* Screens */
 @import "./screens/login.css";
 @import "./screens/friends.css";
+@import "./screens/find.css";
+@import "./screens/more.css";
+@import "./screens/setting.css";
+@import "./screens/chat.css";
 
 /* Components */
 @import "./components/nav-bar.css";
 @import "./components/screen-header.css";
 @import "./components/status-bar.css";
 @import "./components/user-component.css";
+@import "./components/badge.css";
+@import "./components/icon-row.css";
+@import "./components/alt-screen-header.css";
+@import "./components/no-mobile.css";
 body {
   font-family: "Open Sans", sans-serif;
   color: #2e363e;
+}
+
+.main-screen {
+  margin: 0px var(--horizontal-space);
 }
