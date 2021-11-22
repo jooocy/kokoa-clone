@@ -16,3 +16,21 @@
 .settings__setting-column:last-child {
   opacity: 0.5;
 }
+
+.settings__setting-column {
+  display: flex;
+}
+
+.settings__setting-column__new {
+  width: 20px;
+  height: 20px;
+  background-color: tomato;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 6px;
+}
